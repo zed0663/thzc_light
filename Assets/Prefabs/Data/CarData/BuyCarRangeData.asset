@@ -1,0 +1,1149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628addbc5a6e1544c92bea5f06a4543b, type: 3}
+  m_Name: BuyCarRangeData
+  m_EditorClassIdentifier: 
+  RangeDatas:
+  - AllowLevel:
+      currentCryptoKey: 1629746400
+      hiddenValue: 1629746401
+      inited: 1
+      fakeValue: 1
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 1307977763
+      hiddenValue:
+        x: 1307977763
+        y: 1307977762
+      inited: 1
+      fakeValue: {x: 0, y: 1}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1346204264
+      hiddenValue: 1346204266
+      inited: 1
+      fakeValue: 2
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2090371490
+      hiddenValue:
+        x: 2090371490
+        y: 2090371491
+      inited: 1
+      fakeValue: {x: 0, y: 1}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1134206173
+      hiddenValue: 1134206174
+      inited: 1
+      fakeValue: 3
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 1606450982
+      hiddenValue:
+        x: 1606450983
+        y: 1606450983
+      inited: 1
+      fakeValue: {x: 1, y: 1}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1593808983
+      hiddenValue: 1593808979
+      inited: 1
+      fakeValue: 4
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 1574581797
+      hiddenValue:
+        x: 1574581796
+        y: 1574581796
+      inited: 1
+      fakeValue: {x: 1, y: 1}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463456
+      inited: 1
+      fakeValue: 5
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782986
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 1, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463459
+      inited: 1
+      fakeValue: 6
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782986
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 1, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463458
+      inited: 1
+      fakeValue: 7
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782986
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 1, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463469
+      inited: 1
+      fakeValue: 8
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782985
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 2, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463468
+      inited: 1
+      fakeValue: 9
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782985
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 2, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463471
+      inited: 1
+      fakeValue: 10
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782986
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 1, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463470
+      inited: 1
+      fakeValue: 11
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782985
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 2, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463465
+      inited: 1
+      fakeValue: 12
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 3, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463464
+      inited: 1
+      fakeValue: 13
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 3, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463467
+      inited: 1
+      fakeValue: 14
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 3, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463466
+      inited: 1
+      fakeValue: 15
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 3, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463477
+      inited: 1
+      fakeValue: 16
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 3, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463476
+      inited: 1
+      fakeValue: 17
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 3, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463479
+      inited: 1
+      fakeValue: 18
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 3, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463478
+      inited: 1
+      fakeValue: 19
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 3, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463473
+      inited: 1
+      fakeValue: 20
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782984
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 3, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463472
+      inited: 1
+      fakeValue: 21
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782991
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 4, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463475
+      inited: 1
+      fakeValue: 22
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782991
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 4, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463474
+      inited: 1
+      fakeValue: 23
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782991
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 4, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463485
+      inited: 1
+      fakeValue: 24
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782991
+        y: 2041782991
+      inited: 1
+      fakeValue: {x: 4, y: 4}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463484
+      inited: 1
+      fakeValue: 25
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782990
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 5, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463487
+      inited: 1
+      fakeValue: 26
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782990
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 5, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463486
+      inited: 1
+      fakeValue: 27
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782990
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 5, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463481
+      inited: 1
+      fakeValue: 28
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782990
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 5, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463480
+      inited: 1
+      fakeValue: 29
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782990
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 5, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463483
+      inited: 1
+      fakeValue: 30
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782990
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 5, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463482
+      inited: 1
+      fakeValue: 31
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 6, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463429
+      inited: 1
+      fakeValue: 32
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 6, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463428
+      inited: 1
+      fakeValue: 33
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 6, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463431
+      inited: 1
+      fakeValue: 34
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 6, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463430
+      inited: 1
+      fakeValue: 35
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 6, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463425
+      inited: 1
+      fakeValue: 36
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 6, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463424
+      inited: 1
+      fakeValue: 37
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 6, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463427
+      inited: 1
+      fakeValue: 38
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 6, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463426
+      inited: 1
+      fakeValue: 39
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 6, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463437
+      inited: 1
+      fakeValue: 40
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782989
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 6, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463436
+      inited: 1
+      fakeValue: 41
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 7, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463439
+      inited: 1
+      fakeValue: 42
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 7, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463438
+      inited: 1
+      fakeValue: 43
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 7, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463433
+      inited: 1
+      fakeValue: 44
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463432
+      inited: 1
+      fakeValue: 45
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463435
+      inited: 1
+      fakeValue: 46
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463434
+      inited: 1
+      fakeValue: 47
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463445
+      inited: 1
+      fakeValue: 48
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463444
+      inited: 1
+      fakeValue: 49
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463447
+      inited: 1
+      fakeValue: 50
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782988
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 7, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463446
+      inited: 1
+      fakeValue: 51
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 8, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463441
+      inited: 1
+      fakeValue: 52
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 8, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463440
+      inited: 1
+      fakeValue: 53
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 8, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463443
+      inited: 1
+      fakeValue: 54
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 8, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463442
+      inited: 1
+      fakeValue: 55
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 8, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463453
+      inited: 1
+      fakeValue: 56
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 8, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463452
+      inited: 1
+      fakeValue: 57
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 8, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463455
+      inited: 1
+      fakeValue: 58
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 8, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463454
+      inited: 1
+      fakeValue: 59
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782979
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 8, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463449
+      inited: 1
+      fakeValue: 60
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 9, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463448
+      inited: 1
+      fakeValue: 61
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 9, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463451
+      inited: 1
+      fakeValue: 62
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 9, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463450
+      inited: 1
+      fakeValue: 63
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 9, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463397
+      inited: 1
+      fakeValue: 64
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 9, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463396
+      inited: 1
+      fakeValue: 65
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 9, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463399
+      inited: 1
+      fakeValue: 66
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 9, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463398
+      inited: 1
+      fakeValue: 67
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 9, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463393
+      inited: 1
+      fakeValue: 68
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782978
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 9, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463392
+      inited: 1
+      fakeValue: 69
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 10, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463395
+      inited: 1
+      fakeValue: 70
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 10, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463394
+      inited: 1
+      fakeValue: 71
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 10, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463405
+      inited: 1
+      fakeValue: 72
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 10, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463404
+      inited: 1
+      fakeValue: 73
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 10, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463407
+      inited: 1
+      fakeValue: 74
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 10, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463406
+      inited: 1
+      fakeValue: 75
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 10, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463401
+      inited: 1
+      fakeValue: 76
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782986
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 1, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463400
+      inited: 1
+      fakeValue: 77
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782977
+        y: 2041782984
+      inited: 1
+      fakeValue: {x: 10, y: 3}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463403
+      inited: 1
+      fakeValue: 78
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782976
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 11, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463402
+      inited: 1
+      fakeValue: 79
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782983
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 12, y: 2}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463413
+      inited: 1
+      fakeValue: 80
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782981
+        y: 2041782986
+      inited: 1
+      fakeValue: {x: 14, y: 1}
+      fakeValueActive: 1
+  - AllowLevel:
+      currentCryptoKey: 1586463461
+      hiddenValue: 1586463456
+      inited: 1
+      fakeValue: 5
+      fakeValueActive: 1
+    OffsetLevel:
+      currentCryptoKey: 2041782987
+      hiddenValue:
+        x: 2041782986
+        y: 2041782985
+      inited: 1
+      fakeValue: {x: 1, y: 2}
+      fakeValueActive: 1

@@ -1,0 +1,1559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1111066741405806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4603365678557530}
+  - component: {fileID: 114166097351975410}
+  - component: {fileID: 1752231137}
+  m_Layer: 0
+  m_Name: Pool Manager 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4603365678557530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111066741405806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114166097351975410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111066741405806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263a822bd3dd5374f818bd357192fcbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - category: new
+    prefab: {fileID: 4336347422606262, guid: eed42610dfefa6342b3f69b918f9776c, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: ee09947dfae37fc448ff97dc934ca7f7, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 98a8ac7a225b4854ea5a55e62e44083e, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: ba0ff6702133cbb4daccb371b08b87f7, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: fb44b4c5414b98142ad704d49a83e25c, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: fe07e7ae268c0884ea91c9367ae6c131, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 77970bf99f3130b40b4f6ab16aad39f7, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 3039f6eea6dd527438727f8dda092928, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 0e2fbd113f4f8504ca39551fa2a4b4e1, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: caa9d6bb5b7ad5f43a0f434aed8e7fdf, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 65aa90be306c53f489daf8111d22aa44, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 6f3446b7adbea144e9026dff54b7ea25, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4078447311359894, guid: 016682444d3014045a7212dd79348fef, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8909028788955012701, guid: e7a18ee19db6ca146be9f9c1286075f3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2950453113494919291, guid: 6cc1a292280ee3b4abbef165538a8d2e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8830652693771494527, guid: ac2979f348f48cf4881e1feb267119b0,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6375366057365447660, guid: 4dda7007f9f59784494358c3a5cb3bf3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 618361531580806702, guid: 1519735a86e234d4eab7dbc6110ae9fd, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5601223604308391024, guid: da32ba4205988c14c91ba140c6522f0f,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 1946108218358004651, guid: 76bdbb014c85cfb46a9117ac672a2906,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4978323295844067158, guid: 993e4c5290f0d574c9f23f460fab3254,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4737667884390565219, guid: 31960bf5758ab0d458f434023a954aaf,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 1851870071792033765, guid: 1cc0e49bda816da46b388cac16087e41,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3870552327112257326, guid: 3719eb5cb918a464da5b66fb46afcb21,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4319089240274843652, guid: 7168cfdb79e7f1b4a8d92f4a1196453e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 9140255039639737865, guid: 03aeff5f189ce3247bf0b706ae294c6f,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4458543036445067943, guid: 08536ce79cf22ba42b549dd74b92360a,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 1695135932693053890, guid: aa9473ed1679bb7449560eaba366d2df,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8420480152115724822, guid: 32a7e202f4387b242b3894f80402e374,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 9219093982689580567, guid: d8113042feab18a468443888bb3a71b7,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3437086896811573515, guid: 3d9aebc53179d4b478ce379fa9bb42a0,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6952386134341295091, guid: 1557e57f333210f44acd0842b2383766,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6572490141330086338, guid: d019239c58bf23a4aa6ce9bca986e4c3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3775612064302790232, guid: 5cca5adafec188141af47a5b027d8bc9,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5888607927244526675, guid: e5d0773006a18814bbfd3c31bd177ede,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3480825738039064993, guid: 1575dbbe45172804288544e148fa6105,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4461564351065247253, guid: 3916021fd3a066e4cb24047f781a1bfc,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4754669601267007256, guid: ead670ada9453b14ea643b1409288ff0,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8870326586284053142, guid: 64c31be6751ab894297be290da1c91c6,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6496320567238806835, guid: e844c99a77a0217499ca80286d83c1e9,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8665862343199927335, guid: e0e43fc8057ab8e4ab4f279b48184a28,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 7851101251615903482, guid: f1dd16e2fca5e2b4bad962f6210bf4dd,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 389079038502639476, guid: 79770e18c4fdfb244af6e451b9278684, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5041258630988833046, guid: cf982c8e5b5638c42a56317926539e5e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 7971033459795284833, guid: e481736632d0014498aa27eed8191f62,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 7482517328580607427, guid: b9bfac161568bec42a9d003e32a25ed5,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5178121513177252248, guid: 40b7458ee6c522f4d847da20e9cf2c80,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8808971139285213798, guid: eb70d3237457035499c24867dc1f0180,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 93511921901519977, guid: 421e8bc283ea9604282061fe10d41b77, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6771683379002222341, guid: 770462ba681a6b1479494433e1e02307,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 7101099268872196905, guid: b9ab98f1e0a38fc419ad14249a131bb2,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6539904375851853021, guid: a0fb2c078dd44b347b997d9813872a94,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6601678876064214316, guid: 15c0944181bf2844087a3fb0dce8372a,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5226949296960559163, guid: 96286d781bf7703409248cf5afe2651c,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8065209448427263041, guid: b19c52c4ff6f40c4b8b9b26ba772ad04,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8516795981389295985, guid: 62fb1545448dc084cb01d1c6f60130a4,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4501154869604554140, guid: 41d3a84f86c07b6458ff77eea28bb908,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6203864708804014387, guid: 5344df06b600c8f45baafbffe583cfc3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2508714151137714088, guid: 25a077e725e59f64d9784e180e8c7419,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6890357810078671783, guid: 13d8c4e9d74b9bb44a7d497d92173673,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 251660334635151573, guid: c14838f77551b764dabe0a687216cefb, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8774030265130761930, guid: 22ef3b00e873219439ae4359fa375b56,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2463099305774560486, guid: d08cdc3014ef2834f95c9a3c931bad08,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 577275926606014594, guid: 83b0af139e7883148a847c1a5f39268c, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2989951683057000758, guid: 8ab8e698009bbfd4ea2c078395e3caf0,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5328152671409080287, guid: 26c995b8360367b43b110dfd4d50e47a,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2929021821150345730, guid: a24ee4faeef89d34aba9e96393d9a0dc,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: e7e2a672e8fc6ca43b4202df61c3851d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 45244d94c374070459e9a4106dffeda0,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 3152201d2233ca74bbe4f22275752106,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: b4f13afec2133ab4d97f488fc37b73d4,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: db73d8d306ce18e46963219275685e87,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: b2e19123410e85b419378edd4d9bd26d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 90b5be004938ab342aa3705c6c16e156,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 7b39a46ea7d58b04b91b622e1f99775d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: b240e77d0011e11499ecffd9a5e04026,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: b0c6a75f3ca7bfb4092d1608d098a9ac,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 224be65b8aef78c49bed5ef5db0887cf,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 60632f1ded327d140bddd22443a6007d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 9410d8202c0d452488c5f267c135f733,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 51c3159f00d0e334e93aa76ffba0ed02,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 685a66ec7cee7ba4c95b5da9ddbbcf2d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: f8f1e3c62a8d2c749b766519cdd5f11b,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 5fdd54e87a25ed64398b535fef145305,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 462938037b73660418af9e6834fd9bf1,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 27f957c0dfee1ed468128e85dfb8f1f3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 769597b67e9f1704f985a21590665d66,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 94cb2abefaaf834489d93543662f71f3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: e933eaa8ae6e54544be4977deee2acb5,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 35a41b3ff1242214da12a9ff1f7ed04f,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: f552e73bbaa8ec8429eb721d47a8b824,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 1e4e1f54ab1202c4fa0700113981e993,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 82b699d53ece865438d12592e604577b,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 9959d3c5b677fcb4682fc34907656a6b,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: 49211df1f6e9fbd4aaecd1f117b7bb43,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 3163772385799944539, guid: f4f98445d05bd09499879292b10f67e3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 136540786180030594, guid: ca994fc27fef13e4297c7c58fab5e2b5, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 7030548974283656159, guid: 40816f1cd1fa9b7428cf5d28a041e05e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4357342692480316, guid: 912fd20442cd6804eae9c0eb96015aa3, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2883516473478004457, guid: 6d21ffc824f23d84ea0fb4a4a7004bfe,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8690344389239437744, guid: 1e861a35d67545c42882e6fb1459e17b,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 8193927711720544321, guid: c8fa91964f6810142ba4aeeae3f6eeef,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5549892270121986405, guid: e53d80de47573ec4aba72b08a7be700f,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5549892270121986405, guid: e53d80de47573ec4aba72b08a7be700f,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 1070146251407368178, guid: 1cc3af09aaa4cc24cb1bcd62fd006557,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4619752543120667724, guid: 1a9f1da27bb274a4796c3c4297ccf1b4,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 1054644379130628195, guid: 2c36624a8356d2249837be04b7d02de2,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 1410678530567952693, guid: 01c230c4ec4317f489255b4c798ad2a8,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6644706827454767305, guid: 5e5c41d7a8b286d4399a9cc17fe0d02d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6168973464519932865, guid: 94cfcfff5e96a1e4b816a5a4acef2e57,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6933380502580832082, guid: 2b881894652f40d4398496775ff1c594,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 2013762787432249533, guid: 986fc22804d3495449909e15c81e2427,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 5424315981369802434, guid: 51ce46382487991469310375216641b6,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 7218601473637095389, guid: 5b6dc79fc4931da49ab72b879a712030,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 4259559657177813231, guid: 2ed687622980a9c46b6c99a4d36d568e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 6674244150782116915, guid: 0f3f61fbed8244f4393af44a0c09f757,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: new
+    prefab: {fileID: 676343184049920503, guid: d7480a29bd1b4824bbea764188e9271b, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+--- !u!114 &1752231137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111066741405806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d11d5e73559ca541a37269fb849acbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

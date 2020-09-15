@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f821bedacd83844bf3c05b40960181, type: 3}
+  m_Name: ModuleVersion
+  m_EditorClassIdentifier: 
+  versionNumber: 2.0
+  releaseNotes: "IMPORTANT WARNING: Release 2.0 is incompatible with previous versions
+    of ALL Ez assets! Before updating, you MUST manually delete the Plugins/Ez folder
+    to prevent compilation errors!\r\nPLEASE BACKUP PROJECTS BEFORE UPDATING!!!\r\n\r\nRemade
+    the asset\u2019s UI from scratch for better performance and modern look\r\nDifferent
+    UI skins for Unity Personal and Professional\r\n\r\nIntroduction of pooling statistics\r\n
+    - Provide a quick and simple way to oversee prefab usage\r\n - Customizable warning
+    levels that underline under or over-usage of prefabs\r\n - Statistics are collected
+    per pool & per prefab. It is easy to distinguish prefab usage in different scenes\r\n
+    - Statistics are collected ONLY in inspector (they are never included in builds)
+    thus there is no impact on performance\r\n \r\nPooly Main Pool and Pool Extension\r\n
+    - Pooly.Spawn() can now update the spawned clone\u2019s localScale after spawning
+    (if a V3 for scale is passed as a parameter)\r\n - Numerous optimizations under
+    the hood to improve overall performance and reduce garbage collection (GC)\r\n
+    - Fix for the singleton bug coming from v1.x of the asset\r\n \r\nPooly Spawner\r\n
+    - Added SpawnNextAndGetReference() methods that spawn the next clone in the spawn
+    cycle and return a reference to it\r\n - When spawning at a target transform,
+    it is now possible have the spawned clone\u2019s rotation and/or scale match those
+    of the target. There is also the option to reparent the clone under the target\r\n
+    - Added the StartSpawnWithDelay() that can be used to start a delayed spawn cycle
+    from a UnityEvent in the Inspector\r\n - Optimized the usage of WaitForSeconds
+    to reduce GC from coroutines\r\n - Other small improvements\r\n \r\nPooly Despawner\r\n
+    - Optimized the usage of WaitForSeconds to reduce GC from coroutines\r\n \r\nPlayMaker\r\n
+    - Added actions for PoolySpawner\r\n - Updated PoolySpawnByName and PoolySpawnByTransform
+    to allow spawning at the location of a target GameObject\r\n - Updated PoolySpawnByName
+    and PoolySpawnByTransform to include the scale for the spawned clone"

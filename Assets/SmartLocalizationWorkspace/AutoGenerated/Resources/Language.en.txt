@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Text_completed_mission" xml:space="preserve">
+		<value>恭喜完成任务!</value>
+	</data>
+	<data name="Text_daily_quest_will_back" xml:space="preserve">
+		<value>明天再来领取新任务!</value>
+	</data>
+	<data name="Text_description_add_seconds" xml:space="preserve">
+		<value>增加{0}秒</value>
+	</data>
+	<data name="Text_description_connect_facebook_failed" xml:space="preserve">
+		<value>Connection to Facebook failed. Please try again.</value>
+	</data>
+	<data name="Text_description_damage_each_hit" xml:space="preserve">
+		<value>{0}/击中</value>
+	</data>
+	<data name="Text_description_discount_shop" xml:space="preserve">
+		<value>All Items will be sold {0}% off</value>
+	</data>
+	<data name="Text_description_earning_each_sec" xml:space="preserve">
+		<value>+{0}/s</value>
+	</data>
+	<data name="Text_description_earning_shop" xml:space="preserve">
+		<value>奖励 &lt;color=#FFED00FF&gt;+{0}%&lt;/color&gt;</value>
+	</data>
+	<data name="Text_description_equip_crit_amount" xml:space="preserve">
+		<value>当击中敌人时，增加致命概率{0}%.</value>
+	</data>
+	<data name="Text_description_equip_crit_rate" xml:space="preserve">
+		<value>当击中敌人时，增加暴击率{0}%.</value>
+	</data>
+	<data name="Text_description_equip_discount_buy" xml:space="preserve">
+		<value>所有车都降价{0}%.</value>
+	</data>
+	<data name="Text_description_equip_discount_upgrade" xml:space="preserve">
+		<value>所有车升级费用减少{0}%.</value>
+	</data>
+	<data name="Text_description_equip_earning" xml:space="preserve">
+		<value>消灭敌人金币收入增加 {0}%.</value>
+	</data>
+	<data name="Text_description_equip_increase_damage" xml:space="preserve">
+		<value>对敌人的伤害增加{0}%.</value>
+	</data>
+	<data name="Text_description_failed_to_sync_cloud" xml:space="preserve">
+		<value>未能同步或载入进度。请再试一次.</value>
+	</data>
+	<data name="Text_description_follow_and_talk_us" xml:space="preserve">
+		<value>追随我们!</value>
+	</data>
+	<data name="Text_description_follow_on_twitter" xml:space="preserve">
+		<value>Follow us on Twitter!</value>
+	</data>
+	<data name="Text_description_get_revenue_for_times" xml:space="preserve">
+		<value>离线{0}</value>
+	</data>
+	<data name="Text_description_go_go" xml:space="preserve">
+		<value>我们走吧!</value>
+	</data>
+	<data name="Text_description_here_your_reward" xml:space="preserve">
+		<value>奖励</value>
+	</data>
+	<data name="Text_description_increase_exp" xml:space="preserve">
+		<value>&lt;color=#FFED00FF&gt;+{0}%&lt;/color&gt; 更多的经验</value>
+	</data>
+	<data name="Text_description_invite_friend_get_profit_boost" xml:space="preserve">
+		<value>邀请朋友一起赚更多钱!</value>
+	</data>
+	<data name="Text_description_locked" xml:space="preserve">
+		<value>哎呀……它未解锁!</value>
+	</data>
+	<data name="Text_description_lv" xml:space="preserve">
+		<value>等级.{0}</value>
+	</data>
+	<data name="Text_description_mission_buy_item" xml:space="preserve">
+		<value>购买 {0} 次.</value>
+	</data>
+	<data name="Text_description_mission_get_bonus" xml:space="preserve">
+		<value>获得奖励 {0} 次.</value>
+	</data>
+	<data name="Text_description_mission_like_facebook" xml:space="preserve">
+		<value>比如我们的Facebook页面</value>
+	</data>
+	<data name="Text_description_mission_merge" xml:space="preserve">
+		<value>合并汽车{0}次.</value>
+	</data>
+	<data name="Text_description_mission_not_complete" xml:space="preserve">
+		<value>任务未完成!</value>
+	</data>
+	<data name="Text_description_mission_own_item" xml:space="preserve">
+		<value>获得 {0} 等级.{1} 中央公园的汽车.</value>
+	</data>
+	<data name="Text_description_mission_tap_box" xml:space="preserve">
+		<value>购买汽车{0}次。</value>
+	</data>
+	<data name="Text_description_mission_tap_item" xml:space="preserve">
+		<value>点击汽车{0}次。</value>
+	</data>
+	<data name="Text_description_mission_upgrade_item" xml:space="preserve">
+		<value>总共升级所有车辆{0}次。</value>
+	</data>
+	<data name="Text_description_more_come_soon" xml:space="preserve">
+		<value>更多游戏即将来临</value>
+	</data>
+	<data name="Text_description_new_wave" xml:space="preserve">
+		<value>第{0}波</value>
+	</data>
+	<data name="Text_description_no_more_ads" xml:space="preserve">
+		<value>稍等片刻!我们正在获取广告…</value>
+	</data>
+	<data name="Text_description_no_more_park" xml:space="preserve">
+		<value>汽车槽位已满!</value>
+	</data>
+	<data name="Text_description_not_enough_cash" xml:space="preserve">
+		<value>金币不足!</value>
+	</data>
+	<data name="Text_description_not_enough_coca" xml:space="preserve">
+		<value>哎呀……没有足够的钱!</value>
+	</data>
+	<data name="Text_description_not_enough_diamonds" xml:space="preserve">
+		<value>钻石不足!</value>
+	</data>
+	<data name="Text_description_notification_1" xml:space="preserve">
+		<value>赚取更多金币的时间到了 &amp; 摧毁敌人!</value>
+	</data>
+	<data name="Text_description_notification_2" xml:space="preserve">
+		<value>现在就回来消灭敌人!</value>
+	</data>
+	<data name="Text_description_notification_3" xml:space="preserve">
+		<value>新的一天，新的游戏!</value>
+	</data>
+	<data name="Text_description_notification_4" xml:space="preserve">
+		<value>是时候成为英雄了!让我们开始吧! ! !</value>
+	</data>
+	<data name="Text_description_notification_5" xml:space="preserve">
+		<value>尽情玩吧，成为亿万富翁!</value>
+	</data>
+	<data name="Text_description_racing" xml:space="preserve">
+		<value>我们先买两辆同样级别的车，然后合并他们解锁更高等级的车。</value>
+	</data>
+	<data name="Text_description_racing_II" xml:space="preserve">
+		<value>把最高等级的车开到前线，然后开始消灭敌人。</value>
+	</data>
+	<data name="Text_description_rate_me" xml:space="preserve">
+		<value>如果您喜欢这个游戏，请花一点时间给它打分吧。</value>
+	</data>
+	<data name="Text_description_reach_level" xml:space="preserve">
+		<value>你已经达到了{0}级。</value>
+	</data>
+	<data name="Text_description_require_level" xml:space="preserve">
+		<value>要求等级:{0}</value>
+	</data>
+	<data name="Text_description_revenue_from_ads" xml:space="preserve">
+		<value>{0}倍奖励</value>
+	</data>
+	<data name="Text_description_revenue_from_diamonds" xml:space="preserve">
+		<value>获得 {0}</value>
+	</data>
+	<data name="Text_description_speed_in" xml:space="preserve">
+		<value>攻击速度X{0}倍</value>
+	</data>
+	<data name="Text_description_spin_more_and_win" xml:space="preserve">
+		<value>转得越多，赚得越多!</value>
+	</data>
+	<data name="Text_description_tap_open_chest" xml:space="preserve">
+		<value>点击宝箱打开它</value>
+	</data>
+	<data name="Text_description_tap_to_open" xml:space="preserve">
+		<value>点击打开</value>
+	</data>
+	<data name="Text_description_thank_you" xml:space="preserve">
+		<value>谢谢！</value>
+	</data>
+	<data name="Text_description_time_jump" xml:space="preserve">
+		<value>{0}h Time Jump</value>
+	</data>
+	<data name="Text_description_time_jump_1_day" xml:space="preserve">
+		<value>签到1天</value>
+	</data>
+	<data name="Text_description_time_jump_14_day" xml:space="preserve">
+		<value>签到14天</value>
+	</data>
+	<data name="Text_description_time_jump_30_day" xml:space="preserve">
+		<value>签到30天</value>
+	</data>
+	<data name="Text_description_time_jump_7_day" xml:space="preserve">
+		<value>签到7天</value>
+	</data>
+	<data name="Text_description_tutorial_earning" xml:space="preserve">
+		<value>把车开到最前线，消灭敌人，赚更多的钱。</value>
+	</data>
+	<data name="Text_description_tutorial_merge" xml:space="preserve">
+		<value>合并两辆低等级的车可以生成一辆高等级的车。</value>
+	</data>
+	<data name="Text_description_tutorial_speed_up" xml:space="preserve">
+		<value>我们可以看广告获取钻石或金币来升级汽车，提高汽车的射击速度。</value>
+	</data>
+	<data name="Text_description_tutorial_start_game" xml:space="preserve">
+		<value>解锁所有汽车，增加你队伍的力量。这样就能摧毁所有敌人，成为头号玩家。</value>
+	</data>
+	<data name="Text_description_tutorial_upgrade" xml:space="preserve">
+		<value>我们可以升级汽车或升级装备，来增加汽车对敌人的火力伤害。</value>
+	</data>
+	<data name="Text_description_ufo_gift" xml:space="preserve">
+		<value>你已透支</value>
+	</data>
+	<data name="Text_description_update_android" xml:space="preserve">
+		<value>新的更新</value>
+	</data>
+	<data name="Text_description_update_ios" xml:space="preserve">
+		<value>新的更新可在应用程序商店!</value>
+	</data>
+	<data name="Text_description_watch_to_get_free" xml:space="preserve">
+		<value>观看获得:</value>
+	</data>
+	<data name="Text_description_wave_failed" xml:space="preserve">
+		<value>第{0}波失败</value>
+	</data>
+	<data name="Text_description_wave_lost" xml:space="preserve">
+		<value>损失了 -{0} 金币</value>
+	</data>
+	<data name="Text_description_we_are_collected" xml:space="preserve">
+		<value>我们赚了</value>
+	</data>
+	<data name="Text_description_welcome_racer" xml:space="preserve">
+		<value>欢迎来到我们汽车的战斗游戏!</value>
+	</data>
+	<data name="Text_description_will_available_in" xml:space="preserve">
+		<value>将于:</value>
+	</data>
+	<data name="Text_description_you_are_claimed" xml:space="preserve">
+		<value>恭喜,老板!您说</value>
+	</data>
+	<data name="Text_description_you_earned" xml:space="preserve">
+		<value>在您离线时我们还赚了</value>
+	</data>
+	<data name="Text_descriptuon_profit_speed_x" xml:space="preserve">
+		<value>产出速度x{0}倍</value>
+	</data>
+	<data name="Text_label_back" xml:space="preserve">
+		<value>返回</value>
+	</data>
+	<data name="Text_label_battery_saver" xml:space="preserve">
+		<value>电池保护</value>
+	</data>
+	<data name="Text_label_bonus_reward" xml:space="preserve">
+		<value>奖金奖励</value>
+	</data>
+	<data name="Text_label_booster" xml:space="preserve">
+		<value>升压</value>
+	</data>
+	<data name="Text_label_buy" xml:space="preserve">
+		<value>购买</value>
+	</data>
+	<data name="Text_label_claim" xml:space="preserve">
+		<value>索赔</value>
+	</data>
+	<data name="Text_label_come_back_later_for_spin" xml:space="preserve">
+		<value>再来一把就赢了，老板!</value>
+	</data>
+	<data name="Text_label_completed" xml:space="preserve">
+		<value>完成</value>
+	</data>
+	<data name="Text_label_currency_exchange" xml:space="preserve">
+		<value>货币兑换</value>
+	</data>
+	<data name="Text_label_daily_event_available" xml:space="preserve">
+		<value>日常活动可用!</value>
+	</data>
+	<data name="Text_label_daily_quest" xml:space="preserve">
+		<value>每日任务</value>
+	</data>
+	<data name="Text_label_diamond_shop" xml:space="preserve">
+		<value>钻石商店</value>
+	</data>
+	<data name="Text_label_discount" xml:space="preserve">
+		<value>折扣</value>
+	</data>
+	<data name="Text_label_discount_value" xml:space="preserve">
+		<value>{0}% 折扣</value>
+	</data>
+	<data name="Text_label_earning" xml:space="preserve">
+		<value>收入</value>
+	</data>
+	<data name="Text_label_event_end_in" xml:space="preserve">
+		<value>结束:</value>
+	</data>
+	<data name="Text_label_exchange" xml:space="preserve">
+		<value>交换</value>
+	</data>
+	<data name="Text_label_follow" xml:space="preserve">
+		<value>遵循</value>
+	</data>
+	<data name="Text_label_free" xml:space="preserve">
+		<value>免费</value>
+	</data>
+	<data name="Text_label_get" xml:space="preserve">
+		<value>获得 {0}</value>
+	</data>
+	<data name="Text_label_get_x_profit" xml:space="preserve">
+		<value>消灭敌人和战车收益X{0}倍!</value>
+	</data>
+	<data name="Text_label_gimme_that" xml:space="preserve">
+		<value>给我!</value>
+	</data>
+	<data name="Text_label_give_us_five_stars" xml:space="preserve">
+		<value>给我们5颗星!</value>
+	</data>
+	<data name="Text_label_handful_of_coins" xml:space="preserve">
+		<value>一些金币</value>
+	</data>
+	<data name="Text_label_invite_friends" xml:space="preserve">
+		<value>邀请朋友</value>
+	</data>
+	<data name="Text_label_item" xml:space="preserve">
+		<value>Items</value>
+	</data>
+	<data name="Text_label_item_name_1" xml:space="preserve">
+		<value>经济</value>
+	</data>
+	<data name="Text_label_item_name_10" xml:space="preserve">
+		<value>速度</value>
+	</data>
+	<data name="Text_label_item_name_11" xml:space="preserve">
+		<value>比赛</value>
+	</data>
+	<data name="Text_label_item_name_12" xml:space="preserve">
+		<value>气垫车</value>
+	</data>
+	<data name="Text_label_item_name_13" xml:space="preserve">
+		<value>阿肯</value>
+	</data>
+	<data name="Text_label_item_name_14" xml:space="preserve">
+		<value>原子弹</value>
+	</data>
+	<data name="Text_label_item_name_15" xml:space="preserve">
+		<value>芭芭雅嘎</value>
+	</data>
+	<data name="Text_label_item_name_16" xml:space="preserve">
+		<value>大男孩</value>
+	</data>
+	<data name="Text_label_item_name_17" xml:space="preserve">
+		<value>比莉本来琴</value>
+	</data>
+	<data name="Text_label_item_name_18" xml:space="preserve">
+		<value>眨眼</value>
+	</data>
+	<data name="Text_label_item_name_19" xml:space="preserve">
+		<value>庞巴迪</value>
+	</data>
+	<data name="Text_label_item_name_2" xml:space="preserve">
+		<value>狂飙者</value>
+	</data>
+	<data name="Text_label_item_name_20" xml:space="preserve">
+		<value>卡斯蒂利亚</value>
+	</data>
+	<data name="Text_label_item_name_21" xml:space="preserve">
+		<value>堕落的天使</value>
+	</data>
+	<data name="Text_label_item_name_22" xml:space="preserve">
+		<value>多米诺</value>
+	</data>
+	<data name="Text_label_item_name_23" xml:space="preserve">
+		<value>绝尘者</value>
+	</data>
+	<data name="Text_label_item_name_24" xml:space="preserve">
+		<value>速度与激情</value>
+	</data>
+	<data name="Text_label_item_name_25" xml:space="preserve">
+		<value>快五</value>
+	</data>
+	<data name="Text_label_item_name_26" xml:space="preserve">
+		<value>快轮子</value>
+	</data>
+	<data name="Text_label_item_name_27" xml:space="preserve">
+		<value>逃犯</value>
+	</data>
+	<data name="Text_label_item_name_28" xml:space="preserve">
+		<value>润滑器</value>
+	</data>
+	<data name="Text_label_item_name_29" xml:space="preserve">
+		<value>讨厌磁铁</value>
+	</data>
+	<data name="Text_label_item_name_3" xml:space="preserve">
+		<value>热破</value>
+	</data>
+	<data name="Text_label_item_name_30" xml:space="preserve">
+		<value>殊士</value>
+	</data>
+	<data name="Text_label_item_name_31" xml:space="preserve">
+		<value>詹姆斯•邦德</value>
+	</data>
+	<data name="Text_label_item_name_32" xml:space="preserve">
+		<value>哈撒</value>
+	</data>
+	<data name="Text_label_item_name_4" xml:space="preserve">
+		<value>公路之王</value>
+	</data>
+	<data name="Text_label_item_name_5" xml:space="preserve">
+		<value>团子</value>
+	</data>
+	<data name="Text_label_item_name_6" xml:space="preserve">
+		<value>土地征服者</value>
+	</data>
+	<data name="Text_label_item_name_7" xml:space="preserve">
+		<value>新星</value>
+	</data>
+	<data name="Text_label_item_name_8" xml:space="preserve">
+		<value>大众汽车</value>
+	</data>
+	<data name="Text_label_item_name_9" xml:space="preserve">
+		<value>土地征服者</value>
+	</data>
+	<data name="Text_label_language" xml:space="preserve">
+		<value>语言</value>
+	</data>
+	<data name="Text_label_later" xml:space="preserve">
+		<value>晚些时候</value>
+	</data>
+	<data name="Text_label_let_spin" xml:space="preserve">
+		<value>让我们转起来!</value>
+	</data>
+	<data name="Text_label_level_up" xml:space="preserve">
+		<value>升级!</value>
+	</data>
+	<data name="Text_label_level_up_upgrade" xml:space="preserve">
+		<value>升级!</value>
+	</data>
+	<data name="Text_label_max" xml:space="preserve">
+		<value>最大</value>
+	</data>
+	<data name="Text_label_maxed" xml:space="preserve">
+		<value>最大</value>
+	</data>
+	<data name="Text_label_min" xml:space="preserve">
+		<value>最小</value>
+	</data>
+	<data name="Text_label_music" xml:space="preserve">
+		<value>音乐</value>
+	</data>
+	<data name="Text_label_next_in" xml:space="preserve">
+		<value>下一个:</value>
+	</data>
+	<data name="Text_label_normal_quest" xml:space="preserve">
+		<value>任务</value>
+	</data>
+	<data name="Text_label_notification" xml:space="preserve">
+		<value>通知</value>
+	</data>
+	<data name="Text_label_offline_earning" xml:space="preserve">
+		<value>欢迎回来,老板!</value>
+	</data>
+	<data name="Text_label_other" xml:space="preserve">
+		<value>其他人</value>
+	</data>
+	<data name="Text_label_owned" xml:space="preserve">
+		<value>拥有</value>
+	</data>
+	<data name="Text_label_pile_of_coins" xml:space="preserve">
+		<value>堆硬币</value>
+	</data>
+	<data name="Text_label_profit_speed" xml:space="preserve">
+		<value>生产速度</value>
+	</data>
+	<data name="Text_label_rate_me" xml:space="preserve">
+		<value>Rate Me</value>
+	</data>
+	<data name="Text_label_rate_now" xml:space="preserve">
+		<value>Rate it now</value>
+	</data>
+	<data name="Text_label_restore_purchase" xml:space="preserve">
+		<value>恢复购买</value>
+	</data>
+	<data name="Text_label_sale_off" xml:space="preserve">
+		<value>{0}% 关</value>
+	</data>
+	<data name="Text_label_settings" xml:space="preserve">
+		<value>设置</value>
+	</data>
+	<data name="Text_label_share" xml:space="preserve">
+		<value>分享</value>
+	</data>
+	<data name="Text_label_shop" xml:space="preserve">
+		<value>商店</value>
+	</data>
+	<data name="Text_label_sound" xml:space="preserve">
+		<value>声音</value>
+	</data>
+	<data name="Text_label_speed" xml:space="preserve">
+		<value>射击速度</value>
+	</data>
+	<data name="Text_label_speed_up" xml:space="preserve">
+		<value>射击加速</value>
+	</data>
+	<data name="Text_label_spin_and_win" xml:space="preserve">
+		<value>转盘</value>
+	</data>
+	<data name="Text_label_statistics" xml:space="preserve">
+		<value>统计数据</value>
+	</data>
+	<data name="Text_label_tap_to_close" xml:space="preserve">
+		<value>点击关闭</value>
+	</data>
+	<data name="Text_label_unlocked" xml:space="preserve">
+		<value>解锁</value>
+	</data>
+	<data name="Text_label_update_now" xml:space="preserve">
+		<value>现在更新</value>
+	</data>
+	<data name="Text_label_upgrade" xml:space="preserve">
+		<value>升级</value>
+	</data>
+	<data name="Text_label_watch_now" xml:space="preserve">
+		<value>免费</value>
+	</data>
+	<data name="Text_label_watch_to_spin" xml:space="preserve">
+		<value>幸运旋转</value>
+	</data>
+	<data name="Text_label_wheel_lucky" xml:space="preserve">
+		<value>幸运转盘</value>
+	</data>
+	<data name="Text_label_yeah" xml:space="preserve">
+		<value>棒!</value>
+	</data>
+	<data name="Text_label_your_income" xml:space="preserve">
+		<value>你的收入</value>
+	</data>
+	<data name="Text_out_of_mission" xml:space="preserve">
+		<value>好兄弟!任务结束了。下一个任务将很快更新。</value>
+	</data>
+	<data name="Text_tips_game_1" xml:space="preserve">
+		<value>提示:合并和解锁更多的车来消灭敌人。</value>
+	</data>
+	<data name="Text_tips_game_2" xml:space="preserve">
+		<value>小贴士:尽可能获得钻石金币来提高汽车的火力。</value>
+	</data>
+	<data name="Text_tips_game_3" xml:space="preserve">
+		<value>提示:升级汽车以赚取更多的金币并增加伤害。</value>
+	</data>
+	<data name="Text_tips_game_4" xml:space="preserve">
+		<value>提示:升级技能以增加伤害，暴击率，消灭敌人获得更多金币。</value>
+	</data>
+	<data name="Text_tips_game_5" xml:space="preserve">
+		<value>提示:当敌人毁灭你时，你将损失金币。</value>
+	</data>
+	<data name="Text_tips_game_6" xml:space="preserve">
+		<value>提示:消灭敌人时观看广告可以获得x3币。</value>
+	</data>
+	<data name="Text_tips_game_7" xml:space="preserve">
+		<value>小贴士:多获取一些钻石金币币来加速。</value>
+	</data>
+	<data name="Text_tips_game_8" xml:space="preserve">
+		<value>小贴士:使用幸运转盘获得更多额外的礼物。</value>
+	</data>
+	<data name="Text_title_notification_1" xml:space="preserve">
+		<value>迎接新的一天!</value>
+	</data>
+	<data name="Text_title_notification_2" xml:space="preserve">
+		<value>祝你有美好的一天!</value>
+	</data>
+	<data name="Text_title_notification_3" xml:space="preserve">
+		<value>我的天！</value>
+	</data>
+</root>
